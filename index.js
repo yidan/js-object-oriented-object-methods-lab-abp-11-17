@@ -2,6 +2,7 @@ function BoardMember(name, homeState,training){
   this.name = name
   this.homeState = homeState
   this.traning = training
+  
   this.veto = function(){
     return 'No, I must disagree'
   }
@@ -19,6 +20,6 @@ function BoardMember(name, homeState,training){
   }
 
   this.sayHi = function(){
-    return `Hi, my name is ${this.name}. I am from ${this.homestate}, and I was trained in ${this.training}.`
+    return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
   }
 }
